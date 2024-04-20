@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import Report from "./Report";
-import Product from "./Product";
-import NoPage from "./NoPage";
+import React, { Component } from "react"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Container from "react-bootstrap/Container"
+import Nav from "react-bootstrap/Nav"
+import Navbar from "react-bootstrap/Navbar"
+import Report from "./Report"
+import Product from "./Product"
+import NoPage from "./NoPage"
 export default class BaseLayout extends Component {
   render() {
     return (
@@ -17,7 +17,7 @@ export default class BaseLayout extends Component {
               <Nav.Link href="/report">Home</Nav.Link>
               <Nav.Link href="/product">Products</Nav.Link>
             </Nav>
-            <div style={{ color: "white" }}>Siwakorn Banluesapy</div>
+            <div style={{ color: "white" }}>66130045: Pathompong Chanphiw</div>
           </Container>
         </Navbar>
         <p></p>
@@ -34,6 +34,6 @@ export default class BaseLayout extends Component {
           </BrowserRouter>
         </Container>
       </div>
-    );
+    )
   }
 }
